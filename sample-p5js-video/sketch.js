@@ -7,6 +7,11 @@
 let video;
 let capture;
 
+// When you first run this it will print a bunch list of devices out to the console.
+// Find which one in the list is the camera you want to use (e.g. OBS) and set the index below.
+
+let WHICH_CAMERA_TO_USE = 0; // 0 is the default camera, 1 is the next camera, etc.
+
 function setup() {
   createCanvas(1024, 768);
   navigator.mediaDevices.enumerateDevices()
@@ -31,7 +36,8 @@ function gotDevices(deviceInfos) {
   var constraints = {
 	video: {
   	deviceId: {
-    	exact: devices[0].id
+     
+    	exact: devices[WHICH_CAMERA_TO_USE].id
   	},
 	},
     audio: false
