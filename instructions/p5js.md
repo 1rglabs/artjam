@@ -8,7 +8,7 @@
 
 The easiest way to get started is to use the [web editor](https://editor.p5js.org/). Code away!
 
-We have a [sample p5.js](https://editor.p5js.org/wxs/sketches/SqpdyZVCG) sketch to display your webcam in case you want to play with the OBS example.
+We have a [sample p5.js](https://editor.p5js.org/wxs/sketches/SqpdyZVCG) sketch to display your webcam in case you want to play with the [OBS example](./obs.md).
 
 ### VS Code
 

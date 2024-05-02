@@ -9,6 +9,6 @@
 8. Add a new source by clicking the '+' sign, and select *Browser*
 9. Pick a url from the #video-feeds Discord channel and paste it as the URL in the Browser Source Properties. Click OK.
 10. Locate the *Controls* panel and click 'Start Virtual Camera'
-11. Load the example p5.js code here... <<< todo: link to example code for loading the OBS virtual camera into a P5.js sketch
+11. Load the [example p5.js code](https://editor.p5js.org/wxs/sketches/SqpdyZVCG)
 
 If you're having trouble with the virtual camera, see [here](https://obsproject.com/kb/virtual-camera-troubleshooting#install-or-remove-the-virtual-camera).
