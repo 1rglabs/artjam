@@ -8,6 +8,7 @@ Most importantly, folk with any level of experience in art, coding, and the comb
 ### How to get started
 If you're new to creative coding we've put together some instructions on how to get started.
 - [Getting started with Processing](instructions/p5js.md)
+- [Getting started with OBS](instructions/obs.md)
 
 ### How to contribute to this repo
 Scripts are organized in folders named by the date on the event in format `jams/YYYYMMDD`
