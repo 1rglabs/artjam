@@ -42,6 +42,8 @@ function gotDevices(deviceInfos) {
 	},
     audio: false
   };
+  capture = createCapture(VIDEO);
+  capture.hide()
   capture = createCapture(constraints);
   capture.size(320, 240);
   capture.hide()
