@@ -1,4 +1,4 @@
-1. In the #events channel of the ArJam Discord, visit the vdo.ninja link (link is pinned to the channel)
+1. In the #events channel of the ArtJam Discord, visit the vdo.ninja link (link is pinned to the channel)
 2. (choose either webcam or screensharing) -- If webcam, select 'No Audio' for Audio source
 3. Download & Install [OBS](https://obsproject.com/download)
 3. Select "I will only be using the virtual camera". You can change this later if you use OBS for other things.
