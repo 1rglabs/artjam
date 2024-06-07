@@ -1,0 +1,16 @@
+// SP - June 6, 2024
+
+voronoi(20, 10, 8)
+  .color(1, 10, 4)
+  .brightness( () => Math.cos(time) )
+.out(o0)
+
+src(o0)
+.modulatePixelate(shape(() => Math.sin(time)*3, 100, 5), 100)
+.scale(() => Math.sin(time)*3)
+.colorama(0.2)
+.out(o2)
+
+src(o2).blend(o0, .4).out(o3)
+
+render(o3)
